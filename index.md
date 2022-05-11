@@ -226,7 +226,10 @@ The most interesting result in my view is that Adaboost on the base data worked 
 
 While this dataset was fun to use, it was limiting due to how small it was. Test/train splitting was impossible, as both subsets would have too few samples in minority classes to have meaningful results. Thus, an extension of this project could examine multiclass data which is similarly divided, but with far more observations (*N > 1000*). This might also allow for parameter optimization, as our maximum k nearest neighbor value would no longer be limited by the smallest class. However, this project does shed light on an alternative to synthetic sampling for solving class imbalance problems.
 
+## References
 
+- Source of team data: https://www.sports-reference.com/cbb/
+- He, Haibo, et al. “ADASYN: Adaptive Synthetic Sampling Approach for Imbalanced Learning.” University of Rhode Island, 2008 International Joint Conference on Neural Networks (IJCNN 2008), 2008, https://www.ele.uri.edu/faculty/he/PDFfiles/adasyn.pdf.
 
 
 
