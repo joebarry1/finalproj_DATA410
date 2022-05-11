@@ -215,6 +215,7 @@ Below are charts showing the resulting scores for each metric. The F<sub>1</sub>
 </p>
 
 
+
 The strongest model by F<sub>1</sub> score (*F<sub>1</sub> = .31*) was the Adaboost model run on just the raw data. Following this number are the logistic and Adaboost model run on the SMOTE and AdaSyn data, each of which has an F<sub>1</sub> score between .26 and .28. Lastly, the worst performing model was the logistic regression model run on the raw data.
 
 While I expected Adaboost to perform best for each sample set, it only performed better in the case of raw data. In retrospect this does make sense; the minority class-boosting utility of Adaboost was wasted on the SMOTE and AdaSyn data, as they had already been adjusted with this in mind. However, the raw data stood to gain greatly. However, when modeled with just the logistic regression, we can see the utility of SMOTE and AdaSyn.
