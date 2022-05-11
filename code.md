@@ -210,8 +210,8 @@ plt.show()
 Below are charts showing the resulting scores for each metric. The F<sub>1</sub> score, which is a harmonic mean of the precision and recall, is the metric which I will be considering the most indicative score of a model’s efficacy. Additionally, these scores are the mean averages amongst all classes rather than all observations. This better highlights the utility in minority classes vs the majority class.
 
 <p float="left">
-  <img src="heatmap1.PNG" width="50" height="40" />
-  <img src="heatmap2.PNG" width="50" height="40" />
+  <img src="heatmap1.PNG" width="500" height="400" />
+  <img src="heatmap2.PNG" width="500" height="400" />
 </p>
 
 
