@@ -209,8 +209,11 @@ plt.show()
 
 Below are charts showing the resulting scores for each metric. The F<sub>1</sub> score, which is a harmonic mean of the precision and recall, is the metric which I will be considering the most indicative score of a model’s efficacy. Additionally, these scores are the mean averages amongst all classes rather than all observations. This better highlights the utility in minority classes vs the majority class.
 
-<img src="heatmap1.PNG" width="50" height="40" alt="hi" class="inline"/>
-<img src="heatmap2.PNG" width="50" height="40" alt="hi" class="inline"/>
+<p float="left">
+  <img src="heatmap1.PNG" width="50" height="40" />
+  <img src="heatmap2.PNG" width="50" height="40" />
+</p>
+
 
 The strongest model by F<sub>1</sub> score (*F<sub>1</sub> = .31*) was the Adaboost model run on just the raw data. Following this number are the logistic and Adaboost model run on the SMOTE and AdaSyn data, each of which has an F<sub>1</sub> score between .26 and .28. Lastly, the worst performing model was the logistic regression model run on the raw data.
 
